@@ -71,4 +71,5 @@ def generate_dummy_data_from_schema(schema):
     print(df.head())
                 
 
-
+if __name__ == "__main__":
+    
