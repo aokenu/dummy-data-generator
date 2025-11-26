@@ -16,3 +16,4 @@ def load_schema(file_path):
     with open(file_path, "r") as f:
         if ext.lower() == ".json":
             return json.load(f)
+        elif ext.lower() in [".yml", ".yaml"]:
