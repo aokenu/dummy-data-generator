@@ -4,6 +4,7 @@
     "columns": [
         {"name": "customer_name", "type": "name"},
         {"name": "email", "type": "email"},
+        {"name": "merchant", "type": "company"},
         
 
 }
