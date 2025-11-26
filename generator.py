@@ -42,3 +42,5 @@ def generate_dummy_data_from_schema(schema):
             elif col_type == "company":
                 row[col_name] = fake.company()
             elif col_type == "integer":
+                row[col_name] = random.ran
+                dint(col.get("min", 0), col.get("max", 100))
