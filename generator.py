@@ -29,4 +29,4 @@ def generate_dummy_data_from_schema(schema):
     columns = schema.get("columns", [])
 
     records = []
-    
+    for _ in range(num_rows):
