@@ -67,6 +67,8 @@ def generate_dummy_data_from_schema(schema):
     df = pd.DataFrame(records)
     filename = f"{table_name}.csv"
     df.to_csv(filename, index=False)
+    print(f"\n✅ Dummy dataset generated and saved as '{filename}'")
+    
                 
 
 
