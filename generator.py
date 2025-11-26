@@ -30,3 +30,5 @@ def generate_dummy_data_from_schema(schema):
 
     records = []
     for _ in range(num_rows):
+        row = {}
+        for col in columns:
