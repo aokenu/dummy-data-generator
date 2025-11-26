@@ -45,4 +45,7 @@ def generate_dummy_data_from_schema(schema):
                 row[col_name] = random.ran
                 dint(col.get("min", 0), col.get("max", 100))
             elif col_type == "float":
-                
+                row[col_name] = round(
+                    random.uniform(col.get("min", 0.0), col.get("max", 100.0)),
+                    col.get("decimals", 2),
+                )
