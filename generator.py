@@ -34,3 +34,5 @@ def generate_dummy_data_from_schema(schema):
         for col in columns:
             col_name = col["name"]
             col_type = col["type"].lower()
+
+            if col_type == "name":
