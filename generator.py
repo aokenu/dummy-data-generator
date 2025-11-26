@@ -39,3 +39,5 @@ def generate_dummy_data_from_schema(schema):
                 row[col_name] = fake.name()
             elif col_type == "email":
                 row[col_name] = fake.email()
+            elif col_type == "company":
+                
