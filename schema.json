@@ -8,6 +8,5 @@
         {"name": "amount", "type": "float", "min": 5.0, "max": 5000.0, "decimals": 2},
         {"name": "transaction_date", "type": "date"},
         {"name": "status", "type": "choice", "options": ["Success", "Failed", "Pending", "Unknown"]}
-        
-
+    ]
 }
