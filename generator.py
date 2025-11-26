@@ -62,4 +62,9 @@ def generate_dummy_data_from_schema(schema):
             else:
                 row[col_name] = f"[Unsupported type: {col_type}]"
         records.append(row)
-                    
+
+    
+    df = pd.DataFrame(records)
+                
+
+
