@@ -56,4 +56,6 @@ def generate_dummy_data_from_schema(schema):
             elif col_type == "choice":
                 options = col.get("options", [])
                 if options:
+                    row[col_name] = random.choice(options)
+                else:
                     
