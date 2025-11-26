@@ -49,3 +49,4 @@ def generate_dummy_data_from_schema(schema):
                     random.uniform(col.get("min", 0.0), col.get("max", 100.0)),
                     col.get("decimals", 2),
                 )
+            elif col_type == "date":
