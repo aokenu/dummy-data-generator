@@ -18,3 +18,6 @@ def load_schema(file_path):
             return json.load(f)
         elif ext.lower() in [".yml", ".yaml"]:
             return yaml.safe_load(f)
+        else:
+            raise ValueError("Unsupported schema format. Use JSON or YAML.")
+        
