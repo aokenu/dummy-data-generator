@@ -25,3 +25,4 @@ def load_schema(file_path):
 def generate_dummy_data_from_schema(schema):
     """Generate dummy data based on schema definition."""
     table_name = schema.get("table_name", "dummy_table")
+    num_rows = schema.get("rows", 10)
