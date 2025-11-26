@@ -9,4 +9,5 @@ columns:
     type: company
   - name: amount
     type: float
+    min: 5.0
     
