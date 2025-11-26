@@ -75,3 +75,5 @@ if __name__ == "__main__":
     schema_file = input("Enter schema file path (JSON or YAML): ").strip()
     schema = load_schema(schema_file)
     generate_dummy_data_from_schema(schema)
+
+
