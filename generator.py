@@ -58,4 +58,8 @@ def generate_dummy_data_from_schema(schema):
                 if options:
                     row[col_name] = random.choice(options)
                 else:
+                    row[col_name] = "[No options provided]"
+            else:
+                row[col_name] = f"[Unsupported type: {col_type}]"
+        records.append(row)
                     
