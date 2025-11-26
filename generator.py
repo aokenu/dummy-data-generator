@@ -20,4 +20,7 @@ def load_schema(file_path):
             return yaml.safe_load(f)
         else:
             raise ValueError("Unsupported schema format. Use JSON or YAML.")
-        
+
+
+def generate_dummy_data_from_schema(schema):
+    
