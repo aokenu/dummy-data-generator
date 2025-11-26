@@ -54,3 +54,6 @@ def generate_dummy_data_from_schema(schema):
             elif col_type == "text":
                 row[col_name] = fake.sentence()
             elif col_type == "choice":
+                options = col.get("options", [])
+                if options:
+                    
