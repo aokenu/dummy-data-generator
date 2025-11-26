@@ -23,4 +23,4 @@ def load_schema(file_path):
 
 
 def generate_dummy_data_from_schema(schema):
-    
+    """Generate dummy data based on schema definition."""
