@@ -1,2 +1,9 @@
 table_name: transactions
 row: 20
+columns:
+  - name: customer_name
+    type: name
+  - name: email
+    type: email
+  - name: merchant
+    type: company
