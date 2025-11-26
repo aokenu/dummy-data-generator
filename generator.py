@@ -52,3 +52,4 @@ def generate_dummy_data_from_schema(schema):
             elif col_type == "date":
                 row[col_name] = fake.date_this_year()
             elif col_type == "text":
+                row[col_name] = fake.sentence()
