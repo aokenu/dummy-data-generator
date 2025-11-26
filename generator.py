@@ -5,3 +5,6 @@ import json
 import yaml
 import os
 
+
+# Initialize Faker
+fake = Faker()
